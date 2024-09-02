@@ -1,7 +1,7 @@
 #!/bin/bash
 
 start_example() {
-  nohup ./bin/example -sub_id $1 -jobnumber $2 &
+  nohup ./bin/example -addr 192.168.3.10:6379 -sub_id $1 -jobnumber $2 &
 }
 
 

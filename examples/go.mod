@@ -2,13 +2,11 @@ module github.com/libi/dcron/examples
 
 go 1.19
 
-replace github.com/libi/dcron v0.0.0 => ../
-
 require (
 	github.com/dcron-contrib/commons v0.0.2
-	github.com/dcron-contrib/redisdriver v0.0.0-20240830125937-ca446326fbd7
+	github.com/dcron-contrib/redisdriver v0.0.1
 	github.com/google/uuid v1.6.0
-	github.com/libi/dcron v0.0.0
+	github.com/libi/dcron v0.6.0-dev.3
 	github.com/redis/go-redis/v9 v9.3.1
 )
 
