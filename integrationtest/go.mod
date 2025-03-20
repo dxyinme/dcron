@@ -10,7 +10,7 @@ require (
 	github.com/dcron-contrib/etcddriver v0.0.0-20240829113352-6f5821facf17
 	github.com/dcron-contrib/redisdriver v0.0.0-20240830124149-3f15fcb79061
 	github.com/libi/dcron v0.0.0
-	github.com/redis/go-redis/v9 v9.6.1
+	github.com/redis/go-redis/v9 v9.6.3
 	github.com/stretchr/testify v1.9.0
 	go.etcd.io/etcd/client/v3 v3.5.11
 	go.etcd.io/etcd/tests/v3 v3.5.11
